@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: VT323,monospace;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px 48px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+}
+
+.navbar ul {
+    width: 100%;
+    justify-self: flex-start;
+	list-style: none;
+    float: right;
+}
+.navbar ul li {
+	float:left;
+	text-align:center;
+    margin: 0 24px;
+
+    font-weight: 700;
+    font-size: large;
+}
+.navbar ul li a {
+	color:#fff;
+	text-decoration:none;
+}
+.navbar ul li.selected a {
+	/* background:url(../images/bg-nav-selected.png) repeat-x; */
+}
+.navbar ul li.selected a, .navbar ul li a:hover {
+	color:orange;
+}
+
+.navbar button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(orange, red);
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.image {
+    background-image: url(https://sword-pixel-online.com/assets/background-website.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 150px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.mainContainer {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.cardContainer {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    height: min-content;
+    min-width: 175px;
+    padding: 12px;
+    margin: 4px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 1px solid #666;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card > .row {
+    margin-top: 12px;
+}
+
+.card h3{
+    margin: 0;
+    text-align: center;
+}
+
+.monsterImg {
+    margin-bottom: 8px;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.dropsUl {
+    width: 100%;
+    justify-self: flex-start;
+	list-style: none;
+    float: right;
+}
+.dropsLi {
+	float:left;
+	text-align:center;
+    margin: 0 24px;
+
+    font-weight: 700;
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img {
+    margin: 0 4px;
+}
