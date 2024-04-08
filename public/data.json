@@ -4,29 +4,115 @@
             "label": "Floor 1",
             "mobs": [
                 {
-                    "name": "Goblin",
+                    "name": "Rabbit",
                     "hp": 10,
                     "atk": 5,
                     "def": 2,
                     "exp": 5,
                     "cols": 5,
-                    "image": "goblin.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "image": "1000.png",
+                    "description": "A rabbit",
                     "drops": [
-                        1
+                        1,
+                        2
                     ]
                 },
                 {
-                    "name": "Orc",
+                    "name": "Frenzy Boar",
                     "hp": 15,
                     "atk": 7,
                     "def": 3,
                     "exp": 10,
                     "cols": 10,
-                    "image": "orc.png",
+                    "image": "1001.png",
                     "description": "A small, green creature with a big nose and pointy ears.",
                     "drops": [
-                        1
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1002.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1003.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1004.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1006.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1008.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1007.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
                     ]
                 }
             ]
@@ -35,16 +121,31 @@
             "label": "Floor 2",
             "mobs": [
                 {
-                    "name": "Goblina",
-                    "hp": 10,
-                    "atk": 5,
-                    "def": 2,
-                    "exp": 5,
-                    "cols": 5,
-                    "image": "goblina.png",
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1009.png",
                     "description": "A small, green creature with a big nose and pointy ears.",
                     "drops": [
-                        1
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Frenzy Boar",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "1011.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        3,
+                        4
                     ]
                 }
             ]
@@ -53,7 +154,22 @@
     "items": {
         "1": {
             "name": "Potion",
-            "image": "potion.png",
+            "image": "1.png",
+            "alt": "A small, red bottle to heal."
+        },
+        "2": {
+            "name": "Potion",
+            "image": "2.png",
+            "alt": "A small, red bottle to heal."
+        },
+        "3": {
+            "name": "Potion",
+            "image": "3.png",
+            "alt": "A small, red bottle to heal."
+        },
+        "4": {
+            "name": "Potion",
+            "image": "4.png",
             "alt": "A small, red bottle to heal."
         }
     }
