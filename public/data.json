@@ -1,0 +1,60 @@
+{
+    "floors": [
+        {
+            "label": "Floor 1",
+            "mobs": [
+                {
+                    "name": "Goblin",
+                    "hp": 10,
+                    "atk": 5,
+                    "def": 2,
+                    "exp": 5,
+                    "cols": 5,
+                    "image": "goblin.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Orc",
+                    "hp": 15,
+                    "atk": 7,
+                    "def": 3,
+                    "exp": 10,
+                    "cols": 10,
+                    "image": "orc.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Floor 2",
+            "mobs": [
+                {
+                    "name": "Goblina",
+                    "hp": 10,
+                    "atk": 5,
+                    "def": 2,
+                    "exp": 5,
+                    "cols": 5,
+                    "image": "goblina.png",
+                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "drops": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "items": {
+        "1": {
+            "name": "Potion",
+            "image": "potion.png",
+            "alt": "A small, red bottle to heal."
+        }
+    }
+}

@@ -1,176 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport">
-    <title>SwordPixelOnline Wiki</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-<body>
-    <header>
-        <div class="navbar">
-            <h1>LOGO</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" />
+		<title>SwordPixelOnline Wiki</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body onload="pageLoaded();">
+		<header>
+			<div class="navbar">
+				<h1>LOGO</h1>
 
-            <ul>
-				<li>
-					<a href="wiki.html">HOME</a>
-				</li>
-				<li class="selected">
-					<a href="monsters.html">MONSTERS</a>
-				</li>
-			</ul>
+				<ul>
+					<li>
+						<a href="wiki.html">HOME</a>
+					</li>
+					<li class="selected">
+						<a href="monsters.html">MONSTERS</a>
+					</li>
+				</ul>
 
-            <button onclick="window.location.href='https://sword-pixel-online.com'">PLAY</button>
-        </div>
-    </header>
-    <main>
-        <div class="image">
-            <h1 style="margin: 0;">Monsters page</h1>
-        </div>
-        <div class="mainContainer">
-            <h2>Floor 1</h2>
+				<button
+					onclick="window.location.href='https://sword-pixel-online.com'"
+				>
+					PLAY
+				</button>
+			</div>
+		</header>
+		<main>
+			<div class="image">
+				<h1 style="margin: 0">Monsters page</h1>
+			</div>
+			<div id="mainContainer"></div>
+		</main>
+		<footer>
+			<p>&copy; Sword Pixel Online Wiki Page. All rights reserved.</p>
+		</footer>
 
-            <div class="cardContainer">
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1000.png" alt="Rabbit">
+		<div style="display: none">
+			<div id="mob_card" class="card">
+				<img class="monsterImg" />
 
-                    <h3>Rabbit</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/1.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/2.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1001.png" alt="Monster 1">
+				<h3 id="mob_name"></h3>
+				<p id="description">Description... <br /></p>
+				Drops:
+				<div id="drops" class="row"></div>
+			</div>
+		</div>
 
-                    <h3>Frenzy Boar</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/3.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/4.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1002.png" alt="Rabbit">
-
-                    <h3>Rabbit</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/3.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/4.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1003.png" alt="Monster 1">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/5.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/6.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1004.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/3.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/4.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1006.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/3.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/4.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1008.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/7.png" alt="Item 1">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1007.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/8.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/9.png" alt="Item 2">
-                        <img src="https://sword-pixel-online.com/assets/items/10.png" alt="Item 2">
-                    </div>
-                </div>
-            </div>
-
-            <h2>Floor 2</h2>
-
-            <div class="cardContainer">
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1009.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/1.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/2.png" alt="Item 2">
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="monsterImg" src="https://sword-pixel-online.com/assets/items/1011.png" alt="Rabbit">
-
-                    <h3>Name</h3>
-                    <p>
-                        Description... <br>
-                    </p>
-                    Drops:
-                    <div class="row">
-                        <img src="https://sword-pixel-online.com/assets/items/1.png" alt="Item 1">
-                        <img src="https://sword-pixel-online.com/assets/items/2.png" alt="Item 2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; Sword Pixel Online Wiki Page. All rights reserved.</p>
-    </footer>
-</body>
+		<script src="js/main.js"></script>
+	</body>
 </html>
