@@ -4,115 +4,118 @@
             "label": "Floor 1",
             "mobs": [
                 {
-                    "name": "Rabbit",
-                    "hp": 10,
-                    "atk": 5,
-                    "def": 2,
-                    "exp": 5,
-                    "cols": 5,
+                    "name": "Ragout Rabbit",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1000.png",
-                    "description": "A rabbit",
+                    "description": null,
                     "drops": [
                         1,
-                        2
+                        1000
                     ]
                 },
                 {
                     "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1001.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "description": null,
                     "drops": [
+                        2,
                         3,
-                        4
+                        4,
+                        1001
                     ]
                 },
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
+                    "name": "Baby Wolf",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1002.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        6,
+                        7,
+                        1002
                     ]
                 },
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
+                    "name": "Dire Wolf",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1003.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        7,
+                        1003
                     ]
                 },
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
-                    "image": "1004.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
-                    "drops": [
-                        3,
-                        4
-                    ]
-                },
-                {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
-                    "image": "1006.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
-                    "drops": [
-                        3,
-                        4
-                    ]
-                },
-                {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
+                    "name": "Mimic",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1008.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        11,
+                        1008
                     ]
                 },
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
-                    "image": "1007.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "name": "Kobold",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
+                    "image": "1004.png",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        5,
+                        1004
+                    ]
+                },
+                {
+                    "name": "Kobold Sentinel",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
+                    "image": "1006.png",
+                    "description": null,
+                    "drops": [
+                        5,
+                        1006
+                    ]
+                },
+                {
+                    "name": "Illfang the Kobold King",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
+                    "image": "1007.png",
+                    "description": null,
+                    "drops": [
+                        8,
+                        1007
                     ]
                 }
             ]
@@ -121,31 +124,31 @@
             "label": "Floor 2",
             "mobs": [
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
+                    "name": "Angry Bee",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
                     "image": "1009.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        9,
+                        1009
                     ]
                 },
                 {
-                    "name": "Frenzy Boar",
-                    "hp": 15,
-                    "atk": 7,
-                    "def": 3,
-                    "exp": 10,
-                    "cols": 10,
-                    "image": "1011.png",
-                    "description": "A small, green creature with a big nose and pointy ears.",
+                    "name": "Desert Buffalo",
+                    "hp": null,
+                    "atk": null,
+                    "def": null,
+                    "exp": null,
+                    "cols": null,
+                    "image": "1010.png",
+                    "description": null,
                     "drops": [
-                        3,
-                        4
+                        10,
+                        1010
                     ]
                 }
             ]
@@ -153,24 +156,109 @@
     ],
     "items": {
         "1": {
-            "name": "Potion",
+            "name": "Ragout Rabbit's Meat",
             "image": "1.png",
-            "alt": "A small, red bottle to heal."
+            "alt": null
         },
         "2": {
-            "name": "Potion",
+            "name": "Boar Skin",
             "image": "2.png",
-            "alt": "A small, red bottle to heal."
+            "alt": null
         },
         "3": {
-            "name": "Potion",
+            "name": "Fang of Boar",
             "image": "3.png",
-            "alt": "A small, red bottle to heal."
+            "alt": null
         },
         "4": {
-            "name": "Potion",
+            "name": "Boar's Meat",
             "image": "4.png",
-            "alt": "A small, red bottle to heal."
+            "alt": null
+        },
+        "5": {
+            "name": "Rusty Sword",
+            "image": "5.png",
+            "alt": null
+        },
+        "6": {
+            "name": "Wolf Skin",
+            "image": "6.png",
+            "alt": null
+        },
+        "7": {
+            "name": "Wolf Claw",
+            "image": "7.png",
+            "alt": null
+        },
+        "8": {
+            "name": "Black Coat Fabric",
+            "image": "8.png",
+            "alt": null
+        },
+        "9": {
+            "name": "Poison",
+            "image": "9.png",
+            "alt": null
+        },
+        "10": {
+            "name": "Desert Buffalo's Meat",
+            "image": "10.png",
+            "alt": null
+        },
+        "11": {
+            "name": "Cavachlore",
+            "image": "11.png",
+            "alt": null
+        },
+        "1000": {
+            "name": null,
+            "image": "1000.png",
+            "alt": null
+        },
+        "1001": {
+            "name": null,
+            "image": "1001.png",
+            "alt": null
+        },
+        "1002": {
+            "name": null,
+            "image": "1002.png",
+            "alt": null
+        },
+        "1003": {
+            "name": null,
+            "image": "1003.png",
+            "alt": null
+        },
+        "1004": {
+            "name": null,
+            "image": "1004.png",
+            "alt": null
+        },
+        "1006": {
+            "name": null,
+            "image": "1006.png",
+            "alt": null
+        },
+        "1007": {
+            "name": null,
+            "image": "1007.png",
+            "alt": null
+        },
+        "1008": {
+            "name": null,
+            "image": "1008.png",
+            "alt": null
+        },
+        "1009": {
+            "name": null,
+            "image": "1009.png",
+            "alt": null
+        },
+        "1010": {
+            "name": null,
+            "image": "1010.png",
+            "alt": null
         }
     }
 }
