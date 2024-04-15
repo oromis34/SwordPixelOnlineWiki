@@ -49,9 +49,6 @@ footer p {
 	color: #fff;
 	text-decoration: none;
 }
-.navbar ul li.selected a {
-	/* background:url(../images/bg-nav-selected.png) repeat-x; */
-}
 .navbar ul li.selected a,
 .navbar ul li a:hover {
 	color: orange;
@@ -86,9 +83,9 @@ footer p {
 	box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.mainContainer {
+#mainContainer {
 	margin: 20px auto;
-	width: 80%;
+	max-width: 1112px;
 	padding: 20px;
 }
 
@@ -97,12 +94,13 @@ footer p {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	gap: 8px;
 }
 
 .card {
 	min-width: 175px;
+	max-width: 250px;
 	padding: 12px;
 
 	background-color: #fefbff;
@@ -114,6 +112,7 @@ footer p {
 
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
 	flex: 1;
 }
 
@@ -123,28 +122,22 @@ footer p {
 
 .card h3 {
 	margin: 0;
-	text-align: center;
 }
 
 .monsterImg {
-	margin-bottom: 8px;
+	margin-top: 8px;
 	max-height: 50px;
 	object-fit: contain;
 }
 
-.dropsUl {
-	width: 100%;
-	justify-self: flex-start;
-	list-style: none;
-	float: right;
-}
-.dropsLi {
-	float: left;
-	text-align: center;
-	margin: 0 24px;
+#drops {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
 
-	font-weight: 700;
-	font-size: large;
+	margin-top: 12px;
 }
 
 .row {
