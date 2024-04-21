@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
     mobsItem.appendChild(mobsLink);
     menuList.appendChild(mobsItem);
     
+    const alphabetsItem = document.createElement("li");
+    const alphabetsLink = document.createElement("a");
+    alphabetsLink.href = "hieroglyphicsAlphabet.html";
+    alphabetsLink.textContent = "HIEROGLYPHICS ALPHABET";
+    alphabetsItem.appendChild(alphabetsLink);
+    menuList.appendChild(alphabetsItem);
+    
     const creditsItem = document.createElement("li");
     const creditsLink = document.createElement("a");
     creditsLink.href = "credits.html";
